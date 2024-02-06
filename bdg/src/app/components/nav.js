@@ -6,8 +6,8 @@ function Nav() {
     return (
         <nav className='bg-black text-white'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-                <div className='flex justify-between h-18'>
-                    <ul className='flex justify-between w-full'>
+                <div className='flex justify-between h-24'>
+                    <ul className='flex items-center justify-between w-full'>
                         <li><Link href='/'>  <Image
                             src='/bdg.png'
                             width={100}
