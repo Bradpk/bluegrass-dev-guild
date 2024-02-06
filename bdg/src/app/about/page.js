@@ -1,10 +1,16 @@
 import styles from './about.module.css';
+import Nav from '../components/nav';
 
 function About() {
     return (
         <>
+         <Nav />
+        <div className='columns-2'>
+        <div>
             <p>We are a collective of software engineers, programmers, researchers, data scientists, and designers in the state of Kentucky</p>
             <p>Our purpose is to promote a sense of community among local technology organizations and their members. We seek to improve communication between leaders, centralize efforts, improve culture, and to support our members in a way that strengthens our community and promotes the common good</p>
+            </div>
+
             <div className={styles.codeofconduct}>
                 <h1>Code Of Conduct</h1>
                 <p>The Bluegrass Developers Guild is a group that welcomes anyone to come and learn, share, network and collaborate our skills and knowledge. This Code of Conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
@@ -43,6 +49,8 @@ function About() {
 
                     This Code of Conduct is licensed under a Creative Commons Attribution-ShareAlike license.</p>
             </div>
+            </div>
+            
         </>
     );
 }
