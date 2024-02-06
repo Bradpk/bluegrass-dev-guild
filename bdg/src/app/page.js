@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <Nav />
-      Hi
+      Bluegrass Developers Guild
 
     </main>
   );
