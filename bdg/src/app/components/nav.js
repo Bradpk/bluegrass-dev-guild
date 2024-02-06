@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function Nav() {
     return (
-        <nav className='bg-black'>
+        <nav className='bg-black text-white'>
             <ul>
                 <li><Link href='/'>Home</Link></li>
                 <li><Link href='/about'>About</Link></li>
